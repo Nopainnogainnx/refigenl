@@ -55,7 +55,15 @@
       <p>喂！看哪呢？下面链接有惊喜</p>
       <a href="https://www.bilibili.com">友情链接</a>  
 
-    <div></div>
+    <div>
+      <script>
+     let count = localStorage.getItem('visitCount') || 0;
+     count++;
+     localStorage.setItem('visitCount', count);
+     document.getElementById('counter').innerText = count;
+     </script>
+    <p>您是第 <span id="counter">0</span> 位访客</p>
+    </div>
     <div style="
       background-color:#f1f6f9;
       text-align:center;
