@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jason-Zero</title>
+    <style>  
+        body {
+            /* 设置背景图片 */
+            background-image: url('https://nopainnogainnx.github.io/refigenl/星空.gif');
+            /* 设置背景图片不重复 */
+            background-repeat: no-repeat;
+            /* 设置背景图片的大小 */
+            background-size: cover; /* 这将使背景图片覆盖整个页面，保持其宽高比 */
+            /* 设置背景图片的位置 */
+            background-position: center; /* 这将使背景图片在页面中居中 */
+            /* 可选：设置背景颜色，当图片加载失败或未覆盖整个页面时显示 */
+            background-color: #f0f0f0;
+            /* 移除默认的页面边距 */
+            margin: 0;
+            height: 100vh;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div style="
+        background-color:#f1f6f9;
+        text-align:center;
+        padding:40px;
+    ">
+        <img src="https://plus.unsplash.com/premium_photo-1669868119012-f5ea10b9d3f0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnxOc2FjbHpQMDJKSXx8ZW58MHx8fHx8" alt="背景" width="80px" height="80px">
+    </div>
+    <div style="
+        max-width:700px;
+        margin:3px ;
+        padding: /* 注意这里修正了原始代码中的错误，添加了冒号和值 */
+        15px;
+    ">
+        <a href="https://nopainnogainnx.github.io/refigenl/new.html">下一页</a>
+        <p>去<a href='https://www.bilibili.com/video/BV1HRUZYwEvp/?spm_id_from=333.1007.tianma.38-1-113.click&vd_source=ec9dd1109c2ae6cea5f7d22c7b0d466b'>这里</a>看一看,有惊喜</p>
+        <p>还有这里！</p>
+        <a href="https://www.bilibili.com/video/BV1HRUZYwEvp/?spm_id_from=333.1007.tianma.38-1-113.click&vd_source=ec9dd1109c2ae6cea5f7d22c7b0d466b">学习网站</a>
+        <p>真-学习网站↓↓↓↓</p>
+        <a href="https://weibo.com/stoneknows">微博</a>
+    </div>
+    <div style="
+        background-color:#f3f5f3;
+        text-align:center;
+        padding:40px;
+        font-size:12px;
+    ">
+        <p>喂！看哪呢？下面链接有惊喜</p>
+        <a href="https://www.bilibili.com">友情链接</a>  
+    </div>
+    <!-- 注意：访客计数部分保持不变，因为它依赖于JavaScript -->
+    <div>
+        <script>
+            let count = localStorage.getItem('visitCount') || 0;
+            count++;
+            localStorage.setItem('visitCount', count);
+            document.getElementById('counter').innerText = count;
+        </script>
+        <p>您是第 <span id="counter">0</span> 位访客</p>
+    </div>
+    <div style="
+        background-color:#f1f6f9;
+        text-align:center;
+        padding:40px;
+    ">
+        <img src="https://images.unsplash.com/photo-1641804155472-95923918dcc2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE1fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="背景" width="80px" height="80px">
+    </div>
+    <div style="
+        background-color:#f2f8f1;
+        text-align:center;
+        padding: 15px; /* 注意这里修正了原始代码中的错误，添加了值 */
+    ">
+        <p>马启睿！马启睿！马启睿！</p>
+        <img src="https://images.unsplash.com/photo-1731569348001-e49c36947289?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4fHx8ZW58MHx8fHx8" alt="子目" width="100" height="60">
+    </div>
+    <div style="
+        max-width:700px;
+        margin:30px auto;
+        padding: 15px; /* 注意这里修正了原始代码中的错误，添加了值 */
+    ">
+        <p>制作人：Jason-闫</p>
+        <p>感谢观看</p>
+        <p>若想支持本UP请跳转以下链接</p>
+        <a href="https://www.bilibili.com/video/BV1aA4m1V7Qn/?spm_id_from=333.999.0.0&vd_source=ec9dd1109c2ae6cea5f7d22c7b0d466b">跳转后请投币</a></p>
+        <img src="https://images.unsplash.com/photo-1739463146961-078f4ac580e3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4fHx8ZW58MHx8fHx8" alt="子目" width="100" height="60">
+        <a href="https://nopainnogainnx.github.io/refigenl/Re01.html">副网页端</a>
+        <a href="https://nopainnogainnx.github.io/refigenl/index (3).html">次网页端</a>
+    </div>
+</body>
+</html>
